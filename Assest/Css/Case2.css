@@ -1,0 +1,48 @@
+body{
+    position: relative;
+    background: #1D3F43;
+}
+section {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    margin-top: 40vh;
+}
+
+.box {
+    width: 150px;
+    height: 74px;
+    border-radius: 24px;
+    background: black;
+}
+
+section > :first-child{
+    margin-top: -12vh;
+
+}
+
+section > :last-child{
+    margin-top: 12vh;
+
+}
+
+.line{
+    position: absolute;
+    background: black;
+    width: 1000px;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+body > :nth-child(2){
+    top:-8px;
+
+}
+body > :nth-child(3){
+    top:79px;
+
+}

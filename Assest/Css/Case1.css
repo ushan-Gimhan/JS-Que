@@ -1,0 +1,11 @@
+body>section{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vw;
+}
+
+section>div{
+    font-size: 40px;
+}
